@@ -1,5 +1,11 @@
 # mas-exchange-rates-api-v2
+this is a complete guide on how to extract daily fx rates from MAS GOV API by the Monetary Authority of Singapore (MAS).
+## Requirements
+1. GOV API KEY : https://eservices.mas.gov.sg/apimg-portal/api-catalog-details/10485
+2. Set up Bigquery and create service account https://cloud.google.com/bigquery/docs/use-service-accounts
+3. Use the API key and service account credentials specifically for this project.
 
+Note: If you are running your scripts on GCP-managed platforms such as Cloud Run, Cloud Functions, Compute Engine (GCE), or Composer, you do not need to export or provide a JSON service account file. These platforms handle authentication for you, which is much safer.
 
 ## Flow Diagram
 ```mermaid
