@@ -1,3 +1,9 @@
+import requests
+import pandas as pd
+from datetime import datetime, timedelta
+from google.cloud import bigquery
+import json
+import pytz
 class Config:
     """Configuration class for static values."""
     BASE_URL = "https://eservices.mas.gov.sg/apimg-gw/server/monthly_statistical_bulletin_non610ora/exchange_rates_end_of_period_daily/views/exchange_rates_end_of_period_daily"
